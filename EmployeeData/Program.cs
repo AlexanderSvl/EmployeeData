@@ -14,11 +14,11 @@ namespace EmployeeData
 
             Console.Write("Are you an admin? If yes, enter the admin PIN code: ");
             Console.ForegroundColor = ConsoleColor.Blue;
-            int PIN = int.Parse(Console.ReadLine());
+            string PIN = Console.ReadLine();
             Console.WriteLine();
             Console.ResetColor();
 
-            if(PIN == 7347)
+            if(PIN == "7347")
             {
                 isAdmin = true;
                 Console.ForegroundColor = ConsoleColor.Green;

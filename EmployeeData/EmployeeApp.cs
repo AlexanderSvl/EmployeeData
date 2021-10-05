@@ -250,7 +250,7 @@ namespace EmployeeData
             {
                 Console.WriteLine();
                 Console.ForegroundColor = ConsoleColor.DarkRed;
-                Console.WriteLine("No data to print.");
+                Console.WriteLine("No data to work with.");
                 Console.ResetColor();
             }
             else
